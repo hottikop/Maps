@@ -1,0 +1,34 @@
+{
+  "pins": [
+    {
+      "id": 0,
+      "coordinate": {
+        "longitude": 42.052411,
+        "latitude": 55.579174
+      },
+      "name": "Илья",
+      "image_name": "ilya",
+      "date": -24647041097
+    },
+    {
+      "id": 1,
+      "coordinate": {
+        "longitude": 37.617734,
+        "latitude": 55.752004
+      },
+      "name": "Игорь",
+      "image_name": "igor",
+      "date": 1419523152
+    },
+    {
+      "id": 2,
+      "coordinate": {
+        "longitude": 151.285829,
+        "latitude": -33.673992
+      },
+      "name": "Немо",
+      "image_name": "nemo",
+      "date": 1072375978
+    }
+  ]
+}

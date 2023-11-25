@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50F6F91C2B11F63F0058997D /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F91B2B11F63F0058997D /* UIButton + Extension.swift */; };
+		50F6F91E2B1201FC0058997D /* PinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F91D2B1201FC0058997D /* PinModel.swift */; };
+		50F6F9232B124D4C0058997D /* pins.json in Resources */ = {isa = PBXBuildFile; fileRef = 50F6F9222B124D4C0058997D /* pins.json */; };
+		50F6F9262B1251730058997D /* PinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F9252B1251730058997D /* PinService.swift */; };
+		50F6F9282B125BF80058997D /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F9272B125BF80058997D /* PinView.swift */; };
+		50F6F92A2B1273D40058997D /* BottomSheetInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F9292B1273D40058997D /* BottomSheetInfoView.swift */; };
+		50F6F92C2B1281E30058997D /* RoundedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F92B2B1281E30058997D /* RoundedButtonView.swift */; };
+		50F6F92E2B128BA60058997D /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F92D2B128BA60058997D /* Coordinate.swift */; };
+		50F6F9302B128BD20058997D /* PinModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F92F2B128BD20058997D /* PinModels.swift */; };
+		50F6F9322B12A2C30058997D /* Paddings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F9312B12A2C30058997D /* Paddings.swift */; };
+		50F6F9342B12A2D60058997D /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F9332B12A2D60058997D /* Images.swift */; };
 		50FF0D872B10843900874339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF0D862B10843900874339 /* AppDelegate.swift */; };
 		50FF0D892B10843900874339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF0D882B10843900874339 /* SceneDelegate.swift */; };
-		50FF0D8B2B10843900874339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF0D8A2B10843900874339 /* ViewController.swift */; };
-		50FF0D8E2B10843900874339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FF0D8C2B10843900874339 /* Main.storyboard */; };
+		50FF0D8B2B10843900874339 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF0D8A2B10843900874339 /* MapViewController.swift */; };
 		50FF0D902B10843B00874339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FF0D8F2B10843B00874339 /* Assets.xcassets */; };
 		50FF0D932B10843B00874339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FF0D912B10843B00874339 /* LaunchScreen.storyboard */; };
+		50FF0DA52B10A74800874339 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF0DA42B10A74800874339 /* Constants.swift */; };
+		50FF0DAB2B10D22A00874339 /* ImageButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF0DAA2B10D22A00874339 /* ImageButtonView.swift */; };
+		50FF0DAF2B11F4AB00874339 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF0DAE2B11F4AB00874339 /* UIView + Extensions.swift */; };
+		D6B32ACCBD26B76E415B8F0E /* Pods_Maps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D5564E1B05E70465ADDB3D /* Pods_Maps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A65D7CEF515C339D77407E /* Pods-Maps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maps.debug.xcconfig"; path = "Target Support Files/Pods-Maps/Pods-Maps.debug.xcconfig"; sourceTree = "<group>"; };
+		131C9EE917D57DA245191237 /* Pods-Maps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maps.release.xcconfig"; path = "Target Support Files/Pods-Maps/Pods-Maps.release.xcconfig"; sourceTree = "<group>"; };
+		50F6F91B2B11F63F0058997D /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		50F6F91D2B1201FC0058997D /* PinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinModel.swift; sourceTree = "<group>"; };
+		50F6F9222B124D4C0058997D /* pins.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pins.json; sourceTree = "<group>"; };
+		50F6F9252B1251730058997D /* PinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinService.swift; sourceTree = "<group>"; };
+		50F6F9272B125BF80058997D /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		50F6F9292B1273D40058997D /* BottomSheetInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetInfoView.swift; sourceTree = "<group>"; };
+		50F6F92B2B1281E30058997D /* RoundedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonView.swift; sourceTree = "<group>"; };
+		50F6F92D2B128BA60058997D /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		50F6F92F2B128BD20058997D /* PinModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinModels.swift; sourceTree = "<group>"; };
+		50F6F9312B12A2C30058997D /* Paddings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paddings.swift; sourceTree = "<group>"; };
+		50F6F9332B12A2D60058997D /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		50FF0D832B10843900874339 /* Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FF0D862B10843900874339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FF0D882B10843900874339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50FF0D8A2B10843900874339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50FF0D8D2B10843900874339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50FF0D8A2B10843900874339 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		50FF0D8F2B10843B00874339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50FF0D922B10843B00874339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50FF0D942B10843B00874339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FF0DA42B10A74800874339 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		50FF0DAA2B10D22A00874339 /* ImageButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButtonView.swift; sourceTree = "<group>"; };
+		50FF0DAE2B11F4AB00874339 /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
+		D7D5564E1B05E70465ADDB3D /* Pods_Maps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Maps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6B32ACCBD26B76E415B8F0E /* Pods_Maps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50F6F9242B1251610058997D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				50F6F9252B1251730058997D /* PinService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		50FF0D7A2B10843900874339 = {
 			isa = PBXGroup;
 			children = (
 				50FF0D852B10843900874339 /* Maps */,
 				50FF0D842B10843900874339 /* Products */,
+				919E5041AD95E9BDBB359818 /* Pods */,
+				95CA125F1DF677E340896E69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,85 @@
 		50FF0D852B10843900874339 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				50FF0D862B10843900874339 /* AppDelegate.swift */,
+				50F6F9242B1251610058997D /* Services */,
+				50FF0DA02B10A3E600874339 /* Models */,
+				50FF0D9B2B10938C00874339 /* Views */,
+				50FF0D9A2B108ECD00874339 /* Controllers */,
+				50FF0DA32B10A72C00874339 /* Resources */,
+				50FF0DAD2B11F47B00874339 /* Extensions */,
 				50FF0D882B10843900874339 /* SceneDelegate.swift */,
-				50FF0D8A2B10843900874339 /* ViewController.swift */,
-				50FF0D8C2B10843900874339 /* Main.storyboard */,
-				50FF0D8F2B10843B00874339 /* Assets.xcassets */,
+				50FF0D862B10843900874339 /* AppDelegate.swift */,
 				50FF0D912B10843B00874339 /* LaunchScreen.storyboard */,
+				50FF0D8F2B10843B00874339 /* Assets.xcassets */,
 				50FF0D942B10843B00874339 /* Info.plist */,
 			);
 			path = Maps;
+			sourceTree = "<group>";
+		};
+		50FF0D9A2B108ECD00874339 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50FF0D8A2B10843900874339 /* MapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50FF0D9B2B10938C00874339 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50FF0DAA2B10D22A00874339 /* ImageButtonView.swift */,
+				50F6F9272B125BF80058997D /* PinView.swift */,
+				50F6F9292B1273D40058997D /* BottomSheetInfoView.swift */,
+				50F6F92B2B1281E30058997D /* RoundedButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50FF0DA02B10A3E600874339 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50F6F91D2B1201FC0058997D /* PinModel.swift */,
+				50F6F92D2B128BA60058997D /* Coordinate.swift */,
+				50F6F92F2B128BD20058997D /* PinModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50FF0DA32B10A72C00874339 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50FF0DA42B10A74800874339 /* Constants.swift */,
+				50F6F9332B12A2D60058997D /* Images.swift */,
+				50F6F9312B12A2C30058997D /* Paddings.swift */,
+				50F6F9222B124D4C0058997D /* pins.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		50FF0DAD2B11F47B00874339 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50FF0DAE2B11F4AB00874339 /* UIView + Extensions.swift */,
+				50F6F91B2B11F63F0058997D /* UIButton + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		919E5041AD95E9BDBB359818 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04A65D7CEF515C339D77407E /* Pods-Maps.debug.xcconfig */,
+				131C9EE917D57DA245191237 /* Pods-Maps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95CA125F1DF677E340896E69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7D5564E1B05E70465ADDB3D /* Pods_Maps.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50FF0D972B10843B00874339 /* Build configuration list for PBXNativeTarget "Maps" */;
 			buildPhases = (
+				59FD5BB71CF1DFFF51F810D6 /* [CP] Check Pods Manifest.lock */,
 				50FF0D7F2B10843900874339 /* Sources */,
 				50FF0D802B10843900874339 /* Frameworks */,
 				50FF0D812B10843900874339 /* Resources */,
+				10B0A73A7CE2E3E5829D13A1 /* [CP] Copy Pods Resources */,
+				A6BF6E17AAE4370A13424AC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +241,98 @@
 			files = (
 				50FF0D932B10843B00874339 /* LaunchScreen.storyboard in Resources */,
 				50FF0D902B10843B00874339 /* Assets.xcassets in Resources */,
-				50FF0D8E2B10843900874339 /* Main.storyboard in Resources */,
+				50F6F9232B124D4C0058997D /* pins.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10B0A73A7CE2E3E5829D13A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Maps/Pods-Maps-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Maps/Pods-Maps-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Maps/Pods-Maps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59FD5BB71CF1DFFF51F810D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Maps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BF6E17AAE4370A13424AC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Maps/Pods-Maps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Maps/Pods-Maps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Maps/Pods-Maps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		50FF0D7F2B10843900874339 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FF0D8B2B10843900874339 /* ViewController.swift in Sources */,
+				50FF0DAF2B11F4AB00874339 /* UIView + Extensions.swift in Sources */,
+				50F6F9262B1251730058997D /* PinService.swift in Sources */,
+				50F6F9282B125BF80058997D /* PinView.swift in Sources */,
+				50FF0DAB2B10D22A00874339 /* ImageButtonView.swift in Sources */,
+				50F6F92C2B1281E30058997D /* RoundedButtonView.swift in Sources */,
+				50FF0D8B2B10843900874339 /* MapViewController.swift in Sources */,
+				50F6F91C2B11F63F0058997D /* UIButton + Extension.swift in Sources */,
+				50F6F9302B128BD20058997D /* PinModels.swift in Sources */,
 				50FF0D872B10843900874339 /* AppDelegate.swift in Sources */,
+				50F6F9322B12A2C30058997D /* Paddings.swift in Sources */,
+				50F6F91E2B1201FC0058997D /* PinModel.swift in Sources */,
+				50F6F92E2B128BA60058997D /* Coordinate.swift in Sources */,
 				50FF0D892B10843900874339 /* SceneDelegate.swift in Sources */,
+				50F6F9342B12A2D60058997D /* Images.swift in Sources */,
+				50F6F92A2B1273D40058997D /* BottomSheetInfoView.swift in Sources */,
+				50FF0DA52B10A74800874339 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		50FF0D8C2B10843900874339 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50FF0D8D2B10843900874339 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		50FF0D912B10843B00874339 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +460,7 @@
 		};
 		50FF0D982B10843B00874339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A65D7CEF515C339D77407E /* Pods-Maps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +471,9 @@
 				INFOPLIST_FILE = Maps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +481,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hottikop.Maps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		50FF0D992B10843B00874339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131C9EE917D57DA245191237 /* Pods-Maps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +503,9 @@
 				INFOPLIST_FILE = Maps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +513,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hottikop.Maps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
